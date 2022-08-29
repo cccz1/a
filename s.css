@@ -5,7 +5,7 @@
     box-sizing: border-box;
 }
 body{
-    background: #cfebf3;
+    background: #a6e3e9;
     color:rgb(0, 0, 0);
 
 
@@ -80,4 +80,55 @@ nav ul li a:hover::after{
     color: #303841;
     line-height: 1.5;
     text-indent: 50px;
+}
+
+#dowhat{
+    padding: 30px 0;
+}
+.container2{
+    padding: 10%;
+}
+.list{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+    grid-gap: 40px;
+    margin-top: 50px;
+}
+.do{
+    background: #defcfc;
+    padding: 40px;
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+
+}
+
+.do i{
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+.do h2{
+    font-size: 25px;
+    font-weight: 80;
+    margin-bottom: 15px;
+}
+.more{
+    width: 100%;
+    height: 0;
+    background: #fff6be;
+    border-radius: 10px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    overflow: hidden;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 40px;
+    text-align: center;
+    transition: height 1s;
+}
+.do:hover .more{
+    height: 100%;
 }
