@@ -32,6 +32,12 @@ nav{
 .logo{
     width: 140px;
 }
+.logo2{
+    width: 140px;
+    position: relative;
+    left: 34%;
+    bottom: -200px;
+}
 
 nav ul li{
     display: inline-block;
